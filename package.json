@@ -1,0 +1,20 @@
+{
+  "name": "task-executor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start --minUptime 1000 --spinSleepTime 1000 -o out.log index.js"
+  },
+  "author": "Felix Ezequiel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "forever": "^3.0.4",
+    "jsonfile": "^6.1.0",
+    "oracledb": "^5.1.0"
+  }
+}
